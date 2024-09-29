@@ -3,12 +3,12 @@ const router = express.Router();
 
 router.get("/",(req,res)=>{
     const now = new Date();
-    res.send(`Hola accediste en la fecha y hr: ${now}`);
+    res.send(`Fecha y hora: ${now}`);
     
 });
 
 router.get("/home",(req,res)=>{
-    res.send("HOLA ESTAAS ENN HOME");
+    res.send("Estas en home");
 });
 
 module.exports=router;

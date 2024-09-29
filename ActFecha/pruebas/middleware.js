@@ -2,7 +2,7 @@
 //middleware
 const middleware=((req, res, next)=>{
     const now = new Date();
-    console.log(`Acceso a la pagina en: ${now}`);
+    console.log(`Acceso en: ${now}`);
     next();
     
 });
